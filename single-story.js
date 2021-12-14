@@ -81,3 +81,6 @@ console.savehtml = function (data, filename) {
 }
 
 console.savehtml(document.body.innerHTML, 'pagecontent.html'); // save full page
+/* to avoid file destination dialog prompts:
+https://stackoverflow.com/questions/25826573/download-txt-using-javascript-without-dialog-prompt/58918289#58918289
+*/
